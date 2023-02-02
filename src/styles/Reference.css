@@ -1,0 +1,29 @@
+.div-reference {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+.div-player{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.div-player img {
+    width: 3rem;
+    height: 3rem;
+}
+.div-all-players{
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+.equal-icon{
+    width: 2rem !important;
+    height: 2rem !important;
+}
+
+.player-title{
+    color: aliceblue;
+    font-size: 3rem;
+}
