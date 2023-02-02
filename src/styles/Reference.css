@@ -27,3 +27,12 @@ align-items: center;
     color: aliceblue;
     font-size: 3rem;
 }
+
+@media (max-width:425px) {
+    .div-all-players{
+        flex-direction: column;
+        gap:1rem;
+        width: 80%;
+        align-items: center;
+    }
+}

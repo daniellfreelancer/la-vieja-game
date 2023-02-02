@@ -134,3 +134,23 @@
     font-size: x-large;
 
   }
+
+  @media (max-width:1024px) {
+    .square{
+      width: 5rem;
+      height: 5rem;
+    }
+    .x-icon{
+      width: 3.5rem;
+    }
+    .o-icon{
+      width: 3.5rem;
+    }
+  }
+
+  @media (max-width:320px){
+    .square{
+      width: 4rem;
+      height: 4rem;
+    }
+  }

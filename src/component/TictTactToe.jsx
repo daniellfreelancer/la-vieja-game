@@ -80,10 +80,10 @@ function TicTacToe() {
     const winner = calculateWinner(squares);
     let status;
     if (winner) {
-        status = `Winner: ${winner}`;
+        status = `Winner ${winner}`;
         Swal.fire({
             icon: 'success',
-            title:  `Winner is player: ${winner}`,
+            title:  `player: ${winner} Won`,
             showConfirmButton: true,
           })
           reset()
